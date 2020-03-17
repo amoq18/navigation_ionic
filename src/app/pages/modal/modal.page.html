@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>modal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- <h1 *ngIf="value==null else elseTemplate;">Rien a affiché</h1> -->
+  <!-- <h1 #elseTemplate>{{ value }}</h1> -->
+  <h1>{{ value }}</h1>
+</ion-content>
+
+<ion-footer>
+  <ion-button button expand="full" no-margin (click)="close()">Close</ion-button>
+</ion-footer>
